@@ -9,7 +9,7 @@ app.get('/', (req, res) => {
 })
 
 app.get('/twitter', (req, res) => {
-    res.send('H')
+    res.send('Hi')
 })
 
 app.listen(process.env.PORT, () => {
